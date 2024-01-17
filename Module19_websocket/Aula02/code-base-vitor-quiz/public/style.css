@@ -1,0 +1,64 @@
+/* Adicione estas regras de estilo CSS no cabeçalho da sua página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f3f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+button {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 4px;
+}
+
+input[disabled] {
+  filter: brightness(0.5);
+  cursor: not-allowed;
+}
+
+#gameContainer {
+  max-width: 600px;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#questions {
+  margin-top: 20px;
+  min-width: 600px;
+}
+
+#questions > div {
+  border: 1px solid #e3e3e3;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#questions > div > p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+button[disabled] {
+  filter: brightness(0.5);
+  cursor: not-allowed;
+}
